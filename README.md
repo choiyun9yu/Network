@@ -1,4 +1,4 @@
-__# Network
+# Network
 
 # 1. 네트워크 첫 걸음
 
