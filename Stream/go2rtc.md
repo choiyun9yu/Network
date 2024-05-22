@@ -3,7 +3,10 @@
 
 ## 1. What is go2rtc?
 - go2rtc 는 실시간 스트리밍과 관련된 오픈 소스 소프트웨어 프로젝트이다.
-- 주로 홈 오토메이션 시스템과 통합하여 다양한 스트리밍 프로토콜을 지원하고 관리할 수 있도록 설계되었다.
+- 주로 홈 오토메이션 시스템과 통합하여 다양한 스트리밍 프로토콜을 지원하고 관리할 수 있도록 설계되었다.  
+  
+![image](https://github.com/choiyun9yu/Network/assets/110392046/67cdff8a-91ac-4abd-9729-baee38c544d7)
+
 
 ## 1-1. Main features and purpose
 ### 다양한 프로토콜 지원
