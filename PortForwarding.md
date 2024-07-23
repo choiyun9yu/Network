@@ -1,3 +1,24 @@
+# Port Fowarding
+
+### 내부에서 개방 포트 번호 확인
+// 모든 활성 포트 조회
+% netstat -an | grep LISTEN
+
+// 특정 포트 확인
+% sudo netstat -lnup | grep :[포트번호]
+
+// 모든 TCP 포트 조회
+% netstat -anvp tcp | awk 'NR<3 || /LISTEN/'
+
+// 모든 UDP 포트 조회
+% netstat -anvp udp
+
+### 외부에서 개방 여부 확인
+  % telnet [IP 주소] [포트 번호]
+  % nc -zv [IP 주소] [포트 번호]
+
+<hr>
+
 # U+
 
 ## 1. 포트 개방
