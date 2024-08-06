@@ -10,7 +10,7 @@ GraphQL(gql)은 Structed Query Language(sql)와 마찬가지로 쿼리 언어이
 
 일반적으로 gql의 인터페이스간 송수신은 네트워크 레이어 L7의 HTTP POST 메서드와 웹소켓 프로토콜을 사용한다. 필요에 따라서는 얼마든지 L4의 TCP/UDP를 활용하거나 심지어 L2형식의 이더넷 프레임을 사용할 수도 있다.
 
-![img.png](.img/img0.png)
+![img.png](../.img/img0.png)
 
 ### 1-2. REST API와 비교
 REST API는 URL, METHOD등을 조합하기 때문에 다양한 Endpoint가 존재한다. 반면, gql은 단 하나의 endpoint만 있으면 된다. gql은 endpoint에 종속되는 것이 아니라 요청할 때 사용하는 쿼리에 따라 다른 응답을 받을 수 있기 때문이다. 또한 정해진 응답값만 받아올 수 있는 REST API와 달리 GraphQL은 쿼리 작성을 통해 필요한 데이터만 받아올 수 있다.
